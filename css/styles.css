@@ -28,7 +28,13 @@ body {
 
 a {
     text-decoration: none;
+    border-bottom: 2px solid transparent;
 }
+
+a:hover {
+    border-bottom-color: white;
+    }
+
 
 .insandgame{
     font-family: "Raleway", sans-serif;
@@ -50,11 +56,48 @@ nav{
     padding: 20px;
 }
 
+
 main{
     width: 820px;
     margin: 35px auto;
 }
 
 img{
-    margin: 40px 8px 0px 8px
+    margin: 40px 8px 0px 8px;
 }
+
+footer{
+    
+    text-transform: uppercase;
+    padding: 0 20px 0 20px;
+    background-color:#0D2C40;
+    color: white;
+    font-size: 14px;
+    letter-spacing: .08em;
+    font-weight: 500;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+    }
+
+.copyright{
+    font-family: "Raleway", sans-serif;
+    float: left;
+}
+
+.message{
+    font-family: "Raleway", sans-serif;
+    float: right;
+}
+
+
+.name{
+    color: #F15B31;
+    font-weight: 700;
+    }
