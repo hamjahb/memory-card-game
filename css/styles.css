@@ -4,6 +4,7 @@ h1 {
     letter-spacing: 1px;
     font-weight: 400;
     font-size: 45px;
+    margin: 0;
     }
 
 h2 {
@@ -22,6 +23,7 @@ p {
 
 body {
     text-align: center;
+    margin: 0;
     }
 
 a {
@@ -34,4 +36,25 @@ a {
     letter-spacing: 1px;
     font-weight: 600;
     font-size: 18px;
+}
+
+header{
+    background-color: #F15B31;
+    color: #FFFFFF;
+    padding: 30px 20px;
+}
+
+nav{
+    background-color: #00a6b3;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+main{
+    width: 820px;
+    margin: 35px auto;
+}
+
+img{
+    margin: 40px 8px 0px 8px
 }
